@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - The Get Lucky Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gaming.html">Gaming</a></li>
+            <li><a href="electronics.html">Electronics</a></li>
+            <li><a href="furniture.html">Furniture</a></li>
+            <li><a href="fitness.html">Fitness</a></li>
+            <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>About The Get Lucky Store</h1>
+        
+        <section class="about-content">
+            <div class="about-intro">
+                <h2>Our Story</h2>
+                <p>
+                    The Get Lucky Store was founded in 2024 with a simple mission: 
+                    to provide high-quality products across multiple categories 
+                    with unbeatable deals.
+                </p>
+            </div>
+
+            <div class="about-mission">
+                <h2>Our Mission</h2>
+                <p>
+                    We strive to bring you the best products in gaming, electronics, 
+                    furniture, and fitness at prices that will make you feel lucky. 
+                    Our commitment is to offer diverse, high-quality products that 
+                    enhance your lifestyle and provide exceptional value.
+                </p>
+            </div>
+
+            <div class="about-values">
+                <h2>Our Values</h2>
+                <ul>
+                    <li>Customer Satisfaction</li>
+                    <li>Quality Products</li>
+                    <li>Competitive Pricing</li>
+                    <li>Transparency</li>
+                    <li>Innovation</li>
+                </ul>
+            </div>
+
+            <div class="contact-info">
+                <h2>Contact Us</h2>
+                <p>Email: support@getluckystore.com</p>
+                <p>Phone: 055 419 4199</p>
+                <p>Address: 123 Lucky Street, Opportunity City, ST 12345</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 The Get Lucky Store. All Rights Reserved.</p>
+    </footer>
+
+    <script src="cart.js"></script>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', () => {
+            cart.updateCartCount();
+        });
+    </script>
+</body>
+</html>
